@@ -69,6 +69,10 @@ augroup LspEFM
 augroup END
 ```
 
+On systems where `go` binaries are not on your `$PATH`, the following command will work:
+` \ 'cmd': {server_info->[&shell, &shellcmdflag, '~/go/bin/efm-langserver -c ~/.config/efm-langserver/config.yaml']},`
+
+
 ### Configuration for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 coc-settings.json
